@@ -6,7 +6,9 @@
 		<Language>en-GB</Language>
 	</Languages>
 	<Variants />
-	<LanguagesFilter />
+	<LanguagesFilter>
+		<Language>en-GB</Language>
+	</LanguagesFilter>
 	<VariantsFilter />
 	<States>
 		<State name="StartHere" type="AppInit" status="Draft">
@@ -21,7 +23,7 @@
 				<Conditions>
 					<ResponseCondition Confidence="N/A">
 						<ConditionContentList>
-							<Text>Start the app</Text>
+							<Text>Start the app new</Text>
 						</ConditionContentList>
 						<TaskNotes></TaskNotes>
 						<TechnicalNotes></TechnicalNotes>
