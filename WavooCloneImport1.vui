@@ -23,7 +23,7 @@
 				<Conditions>
 					<ResponseCondition Confidence="N/A">
 						<ConditionContentList>
-							<Text>dsfdsfs</Text>
+							<Text>new entry on condition...</Text>
 						</ConditionContentList>
 						<TaskNotes></TaskNotes>
 						<TechnicalNotes></TechnicalNotes>
