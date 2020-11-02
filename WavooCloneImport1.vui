@@ -23,7 +23,11 @@
 				<Conditions>
 					<ResponseCondition Confidence="N/A">
 						<ConditionContentList>
+<<<<<<< HEAD
 							<Text>Start the app with changes commit 2 commit 3sadsadsad</Text>
+=======
+							<Text>Start the app new</Text>
+>>>>>>> branch 'master' of https://github.com/voxgen/WavooCloneImport1.git
 						</ConditionContentList>
 						<TaskNotes></TaskNotes>
 						<TechnicalNotes></TechnicalNotes>
