@@ -34,6 +34,108 @@
 				<Tests />
 			</Navigation>
 		</State>
+		<State name="NewState1" type="Menu" status="Draft">
+			<FunctionalSequences></FunctionalSequences>
+			<Notes></Notes>
+			<TechnicalNotes></TechnicalNotes>
+			<Parameters />
+			<Prompts>
+				<Prompt type="Initial" bargein="ON" outdated="false">
+					<AudioFile name="NewState1" type="INI" additionalText="" level="" freeText="" />
+					<TextContentList />
+					<DesignNotes></DesignNotes>
+					<CoachingComments></CoachingComments>
+					<TaskNotes></TaskNotes>
+					<TechnicalNotes></TechnicalNotes>
+					<Styles />
+					<Language>en-GB</Language>
+					<Variants />
+					<Tests />
+				</Prompt>
+				<Prompt type="Initial" bargein="ON" outdated="false">
+					<AudioFile name="NewState1" type="NM1" additionalText="" level="" freeText="" />
+					<TextContentList />
+					<DesignNotes></DesignNotes>
+					<CoachingComments></CoachingComments>
+					<TaskNotes></TaskNotes>
+					<TechnicalNotes></TechnicalNotes>
+					<Styles />
+					<Language>en-GB</Language>
+					<Variants />
+					<Tests />
+				</Prompt>
+				<Prompt type="Initial" bargein="ON" outdated="false">
+					<AudioFile name="NewState1" type="NM2" additionalText="" level="" freeText="" />
+					<TextContentList />
+					<DesignNotes></DesignNotes>
+					<CoachingComments></CoachingComments>
+					<TaskNotes></TaskNotes>
+					<TechnicalNotes></TechnicalNotes>
+					<Styles />
+					<Language>en-GB</Language>
+					<Variants />
+					<Tests />
+				</Prompt>
+				<Prompt type="Initial" bargein="ON" outdated="false">
+					<AudioFile name="NewState1" type="NI1" additionalText="" level="" freeText="" />
+					<TextContentList />
+					<DesignNotes></DesignNotes>
+					<CoachingComments></CoachingComments>
+					<TaskNotes></TaskNotes>
+					<TechnicalNotes></TechnicalNotes>
+					<Styles />
+					<Language>en-GB</Language>
+					<Variants />
+					<Tests />
+				</Prompt>
+				<Prompt type="Initial" bargein="ON" outdated="false">
+					<AudioFile name="NewState1" type="NI2" additionalText="" level="" freeText="" />
+					<TextContentList />
+					<DesignNotes></DesignNotes>
+					<CoachingComments></CoachingComments>
+					<TaskNotes></TaskNotes>
+					<TechnicalNotes></TechnicalNotes>
+					<Styles />
+					<Language>en-GB</Language>
+					<Variants />
+					<Tests />
+				</Prompt>
+			</Prompts>
+			<Grammars />
+			<Navigation>
+				<FromStates />
+				<Conditions>
+					<ResponseCondition Confidence="N/A">
+						<ConditionContentList>
+							<Text>&lt;VALID INPUT&gt;</Text>
+						</ConditionContentList>
+						<TaskNotes></TaskNotes>
+						<TechnicalNotes></TechnicalNotes>
+						<Result></Result>
+						<Tests />
+					</ResponseCondition>
+					<ResponseCondition Confidence="N/A">
+						<ConditionContentList>
+							<Text>&lt;VALID INPUT&gt;</Text>
+						</ConditionContentList>
+						<TaskNotes></TaskNotes>
+						<TechnicalNotes></TechnicalNotes>
+						<Result></Result>
+						<Tests />
+					</ResponseCondition>
+					<ErrorCondition>
+						<ConditionContentList>
+							<Text>FAILURE</Text>
+						</ConditionContentList>
+						<TaskNotes></TaskNotes>
+						<TechnicalNotes></TechnicalNotes>
+						<Result></Result>
+						<Tests />
+					</ErrorCondition>
+				</Conditions>
+				<Tests />
+			</Navigation>
+		</State>
 	</States>
 	<DesignParameters />
 	<VersionNotes />
