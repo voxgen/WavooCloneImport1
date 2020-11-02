@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?resourcesPath .resources/design1?>
 <?audioPath .resources/design1?>
-<Design version="3.6.0.RC53" type="VOICE" locale="en-GB">
+<Design version="3.5.1" type="VOICE" locale="en-GB">
 	<Languages>
 		<Language>en-GB</Language>
 	</Languages>
 	<Variants />
-	<LanguagesFilter />
+	<LanguagesFilter>
+		<Language>en-GB</Language>
+	</LanguagesFilter>
 	<VariantsFilter />
 	<States>
 		<State name="StartHere" type="AppInit" status="Draft">
@@ -21,7 +23,7 @@
 				<Conditions>
 					<ResponseCondition Confidence="N/A">
 						<ConditionContentList>
-							<Text>Start the app</Text>
+							<Text>Start the app with changes</Text>
 						</ConditionContentList>
 						<TaskNotes></TaskNotes>
 						<TechnicalNotes></TechnicalNotes>
