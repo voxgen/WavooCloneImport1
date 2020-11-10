@@ -36,7 +36,7 @@
 		</State>
 		<State name="NewState1" type="Menu" status="Draft">
 			<FunctionalSequences></FunctionalSequences>
-			<Notes></Notes>
+			<Notes>First commit changes.</Notes>
 			<TechnicalNotes></TechnicalNotes>
 			<Parameters />
 			<Prompts>
